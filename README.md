@@ -1,7 +1,7 @@
 ## Nested Catalog Experiment
 
 ```
-intake_server cat.yaml
+intake-server cat.yaml
 ```
 
 
