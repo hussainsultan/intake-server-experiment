@@ -1,0 +1,18 @@
+description: 'Root Catalog'
+metdata:
+  some_metdata: 'some Root metadata'
+sources:
+  states:
+    args:
+      path: "{{CATALOG_DIR}}/us_states.yml"
+    description: 'Us States Info'
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+
+  crimes:
+    args:
+      path: "{{CATALOG_DIR}}/us_crimes.yaml"
+    description: 'Us Crimes Info'
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata:
+        some_metadata: 'hello metadata'

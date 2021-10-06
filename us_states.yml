@@ -1,0 +1,9 @@
+sources:
+  civil:
+    description: US state information from [CivilServices](https://civil.services/)
+    driver: csv
+    direct_access: force
+    args:
+      urlpath: '{{ CATALOG_DIR }}/data/states_*.csv'
+    metadata:
+      origin_url: 'https://github.com/CivilServiceUSA/us-states/blob/v1.0.0/data/states.csv'
